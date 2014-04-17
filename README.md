@@ -23,8 +23,8 @@ Doesn't have much in the way of file system error handling right now.
 What does it need?
 
 Written in Python 2.6.6 with pyGTK installed.  pyGTK depends on gtk2 and gtk2_devel.
-Doesn't use range, dict, map, filter zip so that should be fine for Python 3.0.
+Does not use range, dict, map, filter zip so that should be fine for Python 3.0.
 Might call print not as a function in one or 2 places so that might need to be changed.
 Please be aware that in Python 3.1+ and up pyGTK is effectively replaced by pyGI (Instrospection).
-Try pygtkcompat and if that fails port to pyGI but youl'll need gtk3 for that.
+Try pygtkcompat and if that fails port to pyGI but you will need gtk3 for that.
 

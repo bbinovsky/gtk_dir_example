@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# Author:    Brian Binovsky
+# Date:      4/14/2014
+# Purpose:   Very simple example
+# License:   BSD (3 term)
+# Notes:     Revised after initial commit as a test.
+
 import pygtk
 import gtk
 import os
